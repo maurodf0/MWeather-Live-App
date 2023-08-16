@@ -1,0 +1,139 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 90%;
+    max-width: 400px;
+    background: #333;
+    color:#fff;
+    border-radius: 20px;
+    padding:40px 35px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border:0;
+    outline:0;
+    background: #ebfffc;
+    color:#555;
+    padding:10px 25px;
+    height: 60px;
+    border-radius: 20px;
+    margin-right: 16px;
+    flex:1;
+    font-size: 18px;
+}
+
+.search button {
+    border:0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.search button img{
+    width: 16px;
+
+}
+
+.weather-icon {
+    max-width: 150px;
+    margin: 20px 0;
+}
+
+.main-weather {
+    display: flex;
+    justify-content: space-between;
+    max-width: 250px;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.temp {
+    font-size: 48px;
+    margin:10px 0;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.city {
+    margin:10px 0;
+    font-weight: 600;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 15px 10px;
+}
+
+.details img {
+    width: 20%;
+    object-fit: cover;
+    max-width: 80px;
+    display: none;
+   
+}
+
+.col {
+    display: flex;
+    gap: 15px;
+    text-align: left;
+    justify-content: center;
+}
+
+.wind, .humidity {
+    font-size: 22px !important;
+    font-weight: 600;
+}
+
+.col p {
+    font-size: 14px;
+    margin:5px 0;
+}
+
+.weather {
+    display: none;
+
+}
+
+.error {
+    text-align: left;
+    margin:25px 0 0 0;
+    color:white;
+    font-weight: 400;
+    display:none;
+}
+
+.temp-max,.temp-min,.temp-percepita {
+    font-size: 24px;
+    margin:10px 0;
+}
+
+.max h4, .min h4, .percepita h4 {
+    font-size: 14px;
+    font-weight: 400;
+}
